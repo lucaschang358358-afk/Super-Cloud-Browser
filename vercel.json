@@ -1,12 +1,9 @@
 {
+  "version": 2,
   "rewrites": [
     {
-      "source": "/lab-data",
-      "destination": "https://gimy.ai/"
-    },
-    {
-      "source": "/lab-data/:path*",
-      "destination": "https://gimy.ai/:path*"
+      "source": "/(.*)",
+      "destination": "https://gimy.ai/$1"
     }
   ]
 }
