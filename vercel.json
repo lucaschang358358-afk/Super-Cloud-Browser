@@ -1,13 +1,12 @@
 {
-  "version": 2,
   "rewrites": [
     {
-      "source": "/lab-data/(.*)",
-      "destination": "https://ddys.pro/$1"
+      "source": "/lab-data",
+      "destination": "https://gimy.ai/"
     },
     {
-      "source": "/lab-data",
-      "destination": "https://ddys.pro/"
+      "source": "/lab-data/:path*",
+      "destination": "https://gimy.ai/:path*"
     }
   ]
 }
