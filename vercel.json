@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/lab-data/(.*)",
-      "destination": "https://gimy.ai/$1"
+      "source": "/lab-data",
+      "destination": "https://ddys.pro/"
     },
     {
-      "source": "/lab-data",
-      "destination": "https://gimy.ai/"
+      "source": "/lab-data/:path*",
+      "destination": "https://ddys.pro/:path*"
     }
   ]
 }
