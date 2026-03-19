@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/lab-data/:path*",
+      "destination": "https://ncat21.com/:path*"
+    }
+  ]
+}
