@@ -1,12 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/lab-data",
-      "destination": "https://www.google.com"
-    },
-    {
-      "source": "/lab-data/:path*",
-      "destination": "https://www.google.com/:path*"
+      "destination": "https://gimy.ai/",
+      "permanent": false
     }
   ]
 }
