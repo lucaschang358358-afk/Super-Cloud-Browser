@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/lab-data",
-      "destination": "https://ncat21.com/"
+      "destination": "https://ddys.pro/"
     },
     {
       "source": "/lab-data/:path*",
-      "destination": "https://ncat21.com/:path*"
+      "destination": "https://ddys.pro/:path*"
     }
   ]
 }
